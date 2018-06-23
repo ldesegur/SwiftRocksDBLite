@@ -417,15 +417,14 @@
 		ED11E9F820DB353A00B00013 /* testutil.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6BC8A720D85E6700B5B052 /* testutil.h */; };
 		ED11E9F920DB353A00B00013 /* aligned_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6BC8AA20D85E6700B5B052 /* aligned_buffer.h */; };
 		ED11E9FA20DB353A00B00013 /* write_prepared_txn_db.h in Headers */ = {isa = PBXBuildFile; fileRef = ED11E7EC20DB2BD200B00013 /* write_prepared_txn_db.h */; };
-		ED11E9FC20DB5A3C00B00013 /* RocksDBLite-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = ED11E9FB20DB5A3C00B00013 /* RocksDBLite-Bridging-Header.h */; };
-		ED11EA0520DB9F4F00B00013 /* DBBackupEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA0420DB9F4F00B00013 /* DBBackupEngine.swift */; };
-		ED11EA0920DB9FE000B00013 /* DBSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA0820DB9FE000B00013 /* DBSlice.swift */; };
-		ED11EA0B20DBA02300B00013 /* DBBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA0A20DBA02300B00013 /* DBBatch.swift */; };
-		ED11EA0D20DBA07900B00013 /* DBReadSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA0C20DBA07900B00013 /* DBReadSnapshot.swift */; };
-		ED11EA0F20DBA0D100B00013 /* DBProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA0E20DBA0D100B00013 /* DBProperty.swift */; };
-		ED11EA1120DBA11200B00013 /* DBOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11EA1020DBA11200B00013 /* DBOptions.swift */; };
-		ED1227F920DEA64900A5B16A /* RocksDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1227F820DEA64900A5B16A /* RocksDB.swift */; };
-		ED19D7ED20DE9FA000F8673C /* DBIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED19D7EC20DE9FA000F8673C /* DBIterator.swift */; };
+		ED895DCE20DEAE6700989436 /* DBSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DC620DEAE6600989436 /* DBSlice.swift */; };
+		ED895DCF20DEAE6700989436 /* DBReadSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DC720DEAE6600989436 /* DBReadSnapshot.swift */; };
+		ED895DD020DEAE6700989436 /* DBBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DC820DEAE6600989436 /* DBBatch.swift */; };
+		ED895DD120DEAE6700989436 /* RocksDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DC920DEAE6600989436 /* RocksDB.swift */; };
+		ED895DD220DEAE6700989436 /* DBOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DCA20DEAE6600989436 /* DBOptions.swift */; };
+		ED895DD320DEAE6700989436 /* DBProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DCB20DEAE6600989436 /* DBProperty.swift */; };
+		ED895DD420DEAE6700989436 /* RocksDBLite-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = ED895DCC20DEAE6700989436 /* RocksDBLite-Bridging-Header.h */; };
+		ED895DD520DEAE6700989436 /* DBIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED895DCD20DEAE6700989436 /* DBIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -433,15 +432,6 @@
 		ED11E7EC20DB2BD200B00013 /* write_prepared_txn_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = write_prepared_txn_db.h; sourceTree = "<group>"; };
 		ED11E8F020DB2D8500B00013 /* db_impl_files.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = db_impl_files.cc; sourceTree = "<group>"; };
 		ED11E8F220DB2E6F00B00013 /* crc32c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crc32c.cc; sourceTree = "<group>"; };
-		ED11E9FB20DB5A3C00B00013 /* RocksDBLite-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RocksDBLite-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		ED11EA0420DB9F4F00B00013 /* DBBackupEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBBackupEngine.swift; sourceTree = SOURCE_ROOT; };
-		ED11EA0820DB9FE000B00013 /* DBSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBSlice.swift; sourceTree = SOURCE_ROOT; };
-		ED11EA0A20DBA02300B00013 /* DBBatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBBatch.swift; sourceTree = SOURCE_ROOT; };
-		ED11EA0C20DBA07900B00013 /* DBReadSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBReadSnapshot.swift; sourceTree = SOURCE_ROOT; };
-		ED11EA0E20DBA0D100B00013 /* DBProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBProperty.swift; sourceTree = SOURCE_ROOT; };
-		ED11EA1020DBA11200B00013 /* DBOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBOptions.swift; sourceTree = SOURCE_ROOT; };
-		ED1227F820DEA64900A5B16A /* RocksDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocksDB.swift; sourceTree = SOURCE_ROOT; };
-		ED19D7EC20DE9FA000F8673C /* DBIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBIterator.swift; sourceTree = SOURCE_ROOT; };
 		ED6BC1F420D8594700B5B052 /* column_family.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = column_family.h; sourceTree = "<group>"; };
 		ED6BC1F620D8594700B5B052 /* compacted_db_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compacted_db_impl.h; sourceTree = "<group>"; };
 		ED6BC1F720D8594700B5B052 /* write_callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = write_callback.h; sourceTree = "<group>"; };
@@ -849,6 +839,14 @@
 		ED6BCC4020D8827900B5B052 /* options_sanity_check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options_sanity_check.h; sourceTree = "<group>"; };
 		ED6BCFFC20DAE04200B5B052 /* partitioned_filter_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partitioned_filter_block.h; sourceTree = "<group>"; };
 		ED6BD18E20DB192900B5B052 /* RocksDBLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RocksDBLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED895DC620DEAE6600989436 /* DBSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBSlice.swift; sourceTree = "<group>"; };
+		ED895DC720DEAE6600989436 /* DBReadSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBReadSnapshot.swift; sourceTree = "<group>"; };
+		ED895DC820DEAE6600989436 /* DBBatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBBatch.swift; sourceTree = "<group>"; };
+		ED895DC920DEAE6600989436 /* RocksDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocksDB.swift; sourceTree = "<group>"; };
+		ED895DCA20DEAE6600989436 /* DBOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBOptions.swift; sourceTree = "<group>"; };
+		ED895DCB20DEAE6600989436 /* DBProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProperty.swift; sourceTree = "<group>"; };
+		ED895DCC20DEAE6700989436 /* RocksDBLite-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RocksDBLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED895DCD20DEAE6700989436 /* DBIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1390,15 +1388,14 @@
 		ED6BD18F20DB192900B5B052 /* RocksDBLite */ = {
 			isa = PBXGroup;
 			children = (
-				ED1227F820DEA64900A5B16A /* RocksDB.swift */,
-				ED11E9FB20DB5A3C00B00013 /* RocksDBLite-Bridging-Header.h */,
-				ED19D7EC20DE9FA000F8673C /* DBIterator.swift */,
-				ED11EA0420DB9F4F00B00013 /* DBBackupEngine.swift */,
-				ED11EA0A20DBA02300B00013 /* DBBatch.swift */,
-				ED11EA1020DBA11200B00013 /* DBOptions.swift */,
-				ED11EA0E20DBA0D100B00013 /* DBProperty.swift */,
-				ED11EA0C20DBA07900B00013 /* DBReadSnapshot.swift */,
-				ED11EA0820DB9FE000B00013 /* DBSlice.swift */,
+				ED895DC820DEAE6600989436 /* DBBatch.swift */,
+				ED895DCD20DEAE6700989436 /* DBIterator.swift */,
+				ED895DCA20DEAE6600989436 /* DBOptions.swift */,
+				ED895DCB20DEAE6600989436 /* DBProperty.swift */,
+				ED895DC720DEAE6600989436 /* DBReadSnapshot.swift */,
+				ED895DC620DEAE6600989436 /* DBSlice.swift */,
+				ED895DC920DEAE6600989436 /* RocksDB.swift */,
+				ED895DCC20DEAE6700989436 /* RocksDBLite-Bridging-Header.h */,
 			);
 			path = RocksDBLite;
 			sourceTree = "<group>";
@@ -1590,10 +1587,10 @@
 				ED11E98820DB353A00B00013 /* thread_status_updater.h in Headers */,
 				ED11E98920DB353A00B00013 /* iostats_context_imp.h in Headers */,
 				ED11E98A20DB353A00B00013 /* perf_step_timer.h in Headers */,
-				ED11E9FC20DB5A3C00B00013 /* RocksDBLite-Bridging-Header.h in Headers */,
 				ED11E98B20DB353A00B00013 /* instrumented_mutex.h in Headers */,
 				ED11E98C20DB353A00B00013 /* statistics.h in Headers */,
 				ED11E98D20DB353A00B00013 /* histogram.h in Headers */,
+				ED895DD420DEAE6700989436 /* RocksDBLite-Bridging-Header.h in Headers */,
 				ED11E98E20DB353A00B00013 /* perf_level_imp.h in Headers */,
 				ED11E98F20DB353A00B00013 /* file_read_sample.h in Headers */,
 				ED11E99020DB353A00B00013 /* histogram_windowing.h in Headers */,
@@ -1775,11 +1772,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED895DD020DEAE6700989436 /* DBBatch.swift in Sources */,
 				ED11E6FB20DB1A4000B00013 /* clock_cache.cc in Sources */,
-				ED11EA0D20DBA07900B00013 /* DBReadSnapshot.swift in Sources */,
-				ED11EA1120DBA11200B00013 /* DBOptions.swift in Sources */,
 				ED11E6FC20DB1A4000B00013 /* sharded_cache.cc in Sources */,
-				ED1227F920DEA64900A5B16A /* RocksDB.swift in Sources */,
 				ED11E6FD20DB1A4000B00013 /* lru_cache.cc in Sources */,
 				ED11E6FE20DB1A4000B00013 /* log_writer.cc in Sources */,
 				ED11E6FF20DB1A4000B00013 /* write_controller.cc in Sources */,
@@ -1794,7 +1789,6 @@
 				ED11E70820DB1A4000B00013 /* event_helpers.cc in Sources */,
 				ED11E70920DB1A4000B00013 /* flush_scheduler.cc in Sources */,
 				ED11E70A20DB1A4000B00013 /* memtable_list.cc in Sources */,
-				ED11EA0B20DBA02300B00013 /* DBBatch.swift in Sources */,
 				ED11E70B20DB1A4000B00013 /* wal_manager.cc in Sources */,
 				ED11E70C20DB1A4000B00013 /* write_batch_base.cc in Sources */,
 				ED11E70D20DB1A4000B00013 /* flush_job.cc in Sources */,
@@ -1806,6 +1800,7 @@
 				ED11E71320DB1A4000B00013 /* compaction.cc in Sources */,
 				ED11E71420DB1A4000B00013 /* db_impl_compaction_flush.cc in Sources */,
 				ED11E71520DB1A4000B00013 /* version_edit.cc in Sources */,
+				ED895DD220DEAE6700989436 /* DBOptions.swift in Sources */,
 				ED11E8F320DB2E7000B00013 /* crc32c.cc in Sources */,
 				ED11E71620DB1A4000B00013 /* file_indexer.cc in Sources */,
 				ED11E71720DB1A4000B00013 /* compaction_picker_universal.cc in Sources */,
@@ -1842,11 +1837,11 @@
 				ED11E73520DB1A4000B00013 /* env_chroot.cc in Sources */,
 				ED11E73620DB1A4000B00013 /* env_encryption.cc in Sources */,
 				ED11E73720DB1A4000B00013 /* env_posix.cc in Sources */,
-				ED11EA0520DB9F4F00B00013 /* DBBackupEngine.swift in Sources */,
 				ED11E73820DB1A4000B00013 /* env.cc in Sources */,
 				ED11E73920DB1A4000B00013 /* alloc_tracker.cc in Sources */,
 				ED11E73A20DB1A4000B00013 /* write_buffer_manager.cc in Sources */,
 				ED11E73B20DB1A4000B00013 /* skiplistrep.cc in Sources */,
+				ED895DD520DEAE6700989436 /* DBIterator.swift in Sources */,
 				ED11E73C20DB1A4000B00013 /* hash_linklist_rep.cc in Sources */,
 				ED11E73D20DB1A4000B00013 /* vectorrep.cc in Sources */,
 				ED11E73E20DB1A4000B00013 /* hash_cuckoo_rep.cc in Sources */,
@@ -1860,7 +1855,6 @@
 				ED11E74620DB1A4000B00013 /* perf_context.cc in Sources */,
 				ED11E74720DB1A4000B00013 /* thread_status_updater_debug.cc in Sources */,
 				ED11E74820DB1A4000B00013 /* perf_level.cc in Sources */,
-				ED19D7ED20DE9FA000F8673C /* DBIterator.swift in Sources */,
 				ED11E74920DB1A4000B00013 /* iostats_context.cc in Sources */,
 				ED11E74A20DB1A4000B00013 /* histogram.cc in Sources */,
 				ED11E74B20DB1A4000B00013 /* thread_status_impl.cc in Sources */,
@@ -1893,6 +1887,7 @@
 				ED11E76620DB1A4000B00013 /* cuckoo_table_reader.cc in Sources */,
 				ED11E76720DB1A4000B00013 /* format.cc in Sources */,
 				ED11E76820DB1A4000B00013 /* cuckoo_table_factory.cc in Sources */,
+				ED895DCF20DEAE6700989436 /* DBReadSnapshot.swift in Sources */,
 				ED11E76920DB1A4000B00013 /* meta_blocks.cc in Sources */,
 				ED11E76A20DB1A4000B00013 /* bloom_block.cc in Sources */,
 				ED11E76B20DB1A4000B00013 /* adaptive_table_factory.cc in Sources */,
@@ -1910,17 +1905,17 @@
 				ED11E77720DB1A4000B00013 /* log_buffer.cc in Sources */,
 				ED11E77820DB1A4000B00013 /* testutil.cc in Sources */,
 				ED11E77920DB1A4000B00013 /* status.cc in Sources */,
-				ED11EA0920DB9FE000B00013 /* DBSlice.swift in Sources */,
 				ED11E77A20DB1A4000B00013 /* arena.cc in Sources */,
 				ED11E88E20DB2BD300B00013 /* snapshot_checker.cc in Sources */,
 				ED11E77B20DB1A4000B00013 /* filename.cc in Sources */,
 				ED11E77C20DB1A4000B00013 /* bloom.cc in Sources */,
 				ED11E77D20DB1A4000B00013 /* file_reader_writer.cc in Sources */,
-				ED11EA0F20DBA0D100B00013 /* DBProperty.swift in Sources */,
 				ED11E77E20DB1A4000B00013 /* event_logger.cc in Sources */,
 				ED11E77F20DB1A4000B00013 /* hash.cc in Sources */,
+				ED895DD320DEAE6700989436 /* DBProperty.swift in Sources */,
 				ED11E78020DB1A4000B00013 /* concurrent_arena.cc in Sources */,
 				ED11E78120DB1A4000B00013 /* filter_policy.cc in Sources */,
+				ED895DCE20DEAE6700989436 /* DBSlice.swift in Sources */,
 				ED11E78220DB1A4000B00013 /* delete_scheduler.cc in Sources */,
 				ED11E78320DB1A4000B00013 /* status_message.cc in Sources */,
 				ED11E78420DB1A4000B00013 /* sst_file_manager_impl.cc in Sources */,
@@ -1932,6 +1927,7 @@
 				ED11E78A20DB1A4000B00013 /* file_util.cc in Sources */,
 				ED11E78B20DB1A4000B00013 /* auto_roll_logger.cc in Sources */,
 				ED11E78C20DB1A4000B00013 /* compression_context_cache.cc in Sources */,
+				ED895DD120DEAE6700989436 /* RocksDB.swift in Sources */,
 				ED11E78D20DB1A4000B00013 /* murmurhash.cc in Sources */,
 				ED11E78E20DB1A4000B00013 /* slice.cc in Sources */,
 				ED11E78F20DB1A4000B00013 /* comparator.cc in Sources */,
@@ -1947,7 +1943,7 @@
 		ED6BD19420DB192A00B5B052 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1985,7 +1981,7 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "RocksDBLite-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RocksDBLite/RocksDBLite-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1998,7 +1994,7 @@
 		ED6BD19520DB192A00B5B052 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -2027,7 +2023,7 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_SWIFT_SYMBOLS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "RocksDBLite-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RocksDBLite/RocksDBLite-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
