@@ -1,0 +1,6 @@
+[submodule "RocksDBLite"]
+	path = RocksDBLite
+	url = https://github.com/ldesegur/rocksdb.git
+[submodule "rocksdb"]
+	path = rocksdb
+	url = https://github.com/facebook/rocksdb.git

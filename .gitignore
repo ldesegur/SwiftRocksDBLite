@@ -1,0 +1,73 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @ldesegur Sign out
+1
+0 1 ldesegur/lexoclock-ios Private
+forked from ludicode/lexoclock-ios
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+lexoclock-ios/.gitignore
+d533389  on May 22
+@ldesegur ldesegur Added .gitignore to keep repo clean when using terminal.
+     
+43 lines (30 sloc)  427 Bytes
+# macOS
+
+.DS_Store
+
+
+# Xcode
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+
+# Swift Package Manager
+
+.build/
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
